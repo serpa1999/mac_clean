@@ -1,6 +1,6 @@
 i=1
 count_of_lines=$(wc -l source_dir.txt | awk '{print $1}')
-bytes_on_start=$(du -s /Users/rshor | awk ' {print $1}')
+bytes_on_start=$(du -s /Users/$USER | awk ' {print $1}')
 let count_of_lines+=1
 while [ $i -le $count_of_lines ]
 do
@@ -14,7 +14,7 @@ do
 	let i-=1
 done
 echo ""
-bytes_on_end=$(du -s /Users/rshor | awk ' {print $1}')
+bytes_on_end=$(du -s /Users/$USER | awk ' {print $1}')
 echo "
 bytes_on_start: $((bytes_on_start /2/1000/1000))GB, ($bytes_on_start KiB)
 bytes_on_end:   $((bytes_on_end /2/1000/1000))GB, ($bytes_on_end KiB)
