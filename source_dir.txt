@@ -1,0 +1,18 @@
+/Library/Caches/*
+/Library/42_cache
+/Library/Application\ Support/Code/Cache
+/Library/Application\ Support/Code/CachedData
+/Library/Application\ Support/Code/CachedExtension
+/Library/Application\ Support/Code/CachedExtensions
+/Library/Application\ Support/Code/CachedExtensionVSIXs
+/Library/Application\ Support/Code/Code\ Cache
+/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/
+/Library/Application\ Support/Slack/Cache/
+/Library/Application\ Support/Slack/Code\ Cache/
+/Library/Application\ Support/Spotify/PersistentCache
+/Library/Safari/*
+/.kube/cache/*
+/Library/Containers/com.docker.docker/Data/vms/*
+/Library/Containers/com.apple.Safari/Data/Library/Caches/*
+/Library/Application\ Support/Firefox/Profiles/hdsrd79k.default-release/storage
+/.Trash/*
