@@ -12,7 +12,7 @@ while [ $i -ne 0 ]
 do
 	printf '-'
 	let i-=1
-donehrome
+done
 echo ""
 bytes_on_end=$(du -s /Users/rshor | awk ' {print $1}')
 echo "
