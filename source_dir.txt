@@ -1,5 +1,4 @@
-/Library/Caches/*
-/Library/42_cache
+/Library/Application\ Support/Firefox/Profiles/hdsrd79k.default-release/storage
 /Library/Application\ Support/Code/Cache
 /Library/Application\ Support/Code/CachedData
 /Library/Application\ Support/Code/CachedExtension
@@ -10,9 +9,14 @@
 /Library/Application\ Support/Slack/Cache/
 /Library/Application\ Support/Slack/Code\ Cache/
 /Library/Application\ Support/Spotify/PersistentCache
-/Library/Safari/*
-/.kube/cache/*
+/Library/Application\ Support/Code/User/workspaceStorage
+/Library/Application\ Support/Code/CachedData/*
 /Library/Containers/com.docker.docker/Data/vms/*
 /Library/Containers/com.apple.Safari/Data/Library/Caches/*
-/Library/Application\ Support/Firefox/Profiles/hdsrd79k.default-release/storage
+/Library/Containers
+/Library/Group\ Containers
+/Library/Safari/*
+/Library/Caches/*
+/Library/42_cache
+/.kube/cache/*
 /.Trash/*
